@@ -5,13 +5,13 @@ using namespace std;
 
 int main() {
 
-	int i, a, b;
+	int a, b;
 	int num;
 	scanf("%d", &num);
 
-	for (i = 1; i <= num; i++){
-		scanf("%d %d", &a, &b);
-		printf("Case #%d: %d\n", i, a + b);
+	while (num--) {
+		scanf("%d,%d", &a, &b);
+		printf("%d\n", a + b);
 	}
 
 	return 0;
