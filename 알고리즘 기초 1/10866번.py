@@ -48,4 +48,3 @@ for i in range(n):
           print(deq[len(deq) - 1])
       else:
           print("-1")
-
