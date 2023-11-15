@@ -30,4 +30,3 @@ for _ in range(n):
   elif order[0] == "back":
       if len(queue) == 0: print(-1)
       else: print(queue[0])
-  
