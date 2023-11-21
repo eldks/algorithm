@@ -20,7 +20,6 @@ for i in range(n):
 
 if temp == True:
     for i in result:
-        # print(result[i])
         print(i)
 
 else:
